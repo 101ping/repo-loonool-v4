@@ -1,19 +1,23 @@
 /* General Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background: #f5f5f5;
+    background: linear-gradient(to bottom, #4A90E2, #fff); /* 蓝白色渐变 */
     color: #333;
     margin: 0;
     padding: 0;
+    height: 100vh;  /* Full screen height */
 }
 
 header {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
     padding: 20px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .logo-img {
@@ -35,8 +39,9 @@ nav a:hover {
     margin: 50px auto;
     max-width: 800px;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
+    border-radius: 8px; /* 圆角效果 */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 更强的阴影效果 */
 }
 
 h1 {
@@ -57,6 +62,7 @@ h1 {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    border-radius: 6px;
 }
 
 .faq-question:hover {
@@ -69,14 +75,16 @@ h1 {
     display: none;
     font-size: 14px;
     border-top: 1px solid #ddd;
+    border-radius: 6px;
 }
 
 /* Footer Styling */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: rgba(255, 255, 255, 0.9); /* 半透明白色 */
     margin-top: 50px;
+    border-radius: 6px;
 }
 
 /* Mobile Support */
