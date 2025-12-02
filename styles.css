@@ -72,14 +72,19 @@ h1 {
     background-color: #ddd;
 }
 
-.faq-answer {
+./* FAQ 问题按钮样式 */
+.faq-question {
+    background-color: #f1f1f1;
+    border: none;
+    width: 100%;
     padding: 15px;
-    background-color: #f9f9f9;
-    display: none;
-    font-size: 14px;
-    border-top: 1px solid #ddd;
-    border-radius: 6px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 6px;  /* 圆角效果 */
 }
+
 
 /* Footer Styling */
 footer {
