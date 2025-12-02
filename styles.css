@@ -86,7 +86,7 @@ h1 {
 }
 
 
-/* Footer Styling */
+/* 页脚透明背景 */
 footer {
     text-align: center;
     padding: 20px;
@@ -94,6 +94,7 @@ footer {
     margin-top: 50px;
     border-radius: 6px;
 }
+
 
 /* Mobile Support */
 @media (max-width: 600px) {
@@ -105,3 +106,4 @@ footer {
         margin: 10px 0;
     }
 }
+
